@@ -41,6 +41,7 @@ class TestSumOfDigitsOfPowerOfTwo(unittest.TestCase):
             sum_of_digits("abc")
         with self.assertRaises(ValueError):
             sum_of_digits(None)
+# Отлично, есть проверка типов, возвратов. Очень круто, что используются методы класса тестов
 
 if __name__ == '__main__':
     unittest.main()
